@@ -30,17 +30,6 @@ body {
     color: #000;
 }
 
-.footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    background-color: #000;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Lora', serif;
-    font-style: italic;
-}
-
 
 
 /* PORTRAIT ORIENTATION PROPERTIES */
@@ -165,5 +154,14 @@ body {
         top: 12px;
         left: 12px;
         color: #781e40;
+    }
+
+    .main__social-link {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .fa {
+        margin-right: 16px;
     }
 }
