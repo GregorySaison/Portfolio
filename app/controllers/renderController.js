@@ -1,18 +1,18 @@
 const renderController = {
     homePage: (__, res) => {
-        res.render('home');
+        res.render('home', { home: true });
     },
 
     aboutPage: (__, res) => {
-        res.render('about');
+        res.render('about', { home: false });
     },
 
     projectsPage: (__, res) => {
-        res.render('projects');
+        res.render('projects', { home: false });
     },
 
     contactPage: (__, res) => {
-        res.render('contact');
+        res.render('contact', { home: false });
     }
 }
 
