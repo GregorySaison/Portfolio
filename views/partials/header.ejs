@@ -4,17 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <% if (home) { %>
-    <link rel="stylesheet" href="css/home.css">
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
-    <% } else if (about) { %>
-    <link rel="stylesheet" href="css/about.css">
-    <% } else if (contact) { %>
-    <link rel="stylesheet" href="css/contact.css">
-    <% } else if (projects) { %>
-    <link rel="stylesheet" href="css/projects.css">
-    <% } %>
+    <% cssSheets.forEach(item => { %>
+        <link rel="stylesheet" href="css/<%= item %>.css">
+    <% }) %>
     <title>Le Dev Novice</title>
 </head>
