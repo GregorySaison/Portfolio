@@ -1,5 +1,19 @@
 <%- include('partials/header') %>
 <body>
-    <h1>Contact</h1>    
+    <header class="header">
+        <img class="header__logo" src="" alt="">
+        <h1 class="header__title">Contact<span class="header__title--red">.</span>Me</h1>
+        <h2 class="header__subtitle">Want to stay in touch ?</h2>
+    </header>
+    <main class="main">
+        <form class="main__form" method="" action="">
+            <input class="main__form-field main__form-field--tiny main__form-firstname" type="text" placeholder="Votre prénom">
+            <input class="main__form-field main__form-field--tiny main__form-lastname" type="text" placeholder="Votre nom">
+            <input class="main__form-field main__form-field--tiny main__form-email" type="text" placeholder="Votre email" required>
+            <textarea class="main__form-field main__form-message" name="" id="" cols="30" rows="10" placeholder="Votre message..." required></textarea>
+            <button class="main__form-button">Envoyer</button>
+        </form>
+    </main>   
+    <%- include('partials/footer') %>
 </body>
 </html>
