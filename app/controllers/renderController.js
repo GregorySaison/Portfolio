@@ -26,9 +26,9 @@ const renderController = {
 
     contactPage: (__, res) => {
         res.render('contact', { cssSheets: [
-            'normalize.css',
-            'styles.css',
-            'contact.css',
+            'normalize',
+            'styles',
+            'contact',
         ] });
     }
 }
