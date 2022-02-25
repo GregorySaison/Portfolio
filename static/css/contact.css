@@ -1,0 +1,56 @@
+body {
+    overflow-y: scroll;
+    margin-bottom: 128px;
+}
+
+.header__title {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header__title--red {
+    color: #781e40;
+}
+
+.header__subtitle {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    font-style: italic;
+    color: #781e40;
+}
+
+.main__form {
+    width: 50vw;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main__form-field {
+    border: 2px solid #781e40;
+}
+
+.main__form-field--tiny {
+    width: 35%;
+}
+
+.main__form-button {
+    width: 20%;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    background-color: #781e40;
+    border: none;
+    padding: 8px;
+}
+
+.main__form-button:hover {
+    color: #781e40;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
