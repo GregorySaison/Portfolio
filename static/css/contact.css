@@ -43,6 +43,7 @@ body {
 .main__form-button {
     width: 20%;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
     color: #FFFFFF;
     background-color: #781e40;
     border: none;
