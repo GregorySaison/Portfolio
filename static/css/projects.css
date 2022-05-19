@@ -1,0 +1,26 @@
+body {
+    overflow-y: scroll;
+    margin-bottom: 128px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(214,206,214,1) 100%);
+}
+
+.header__title {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header__title--red {
+    color: #781e40;
+}
+
+.header__subtitle {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    font-style: italic;
+    color: #781e40;
+}
