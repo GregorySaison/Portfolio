@@ -2,6 +2,11 @@
 body {
     display: flex;
     flex-direction: column; 
+    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(214,206,214,1) 100%);
+}
+
+.fa {
+    color: #781e40;
 }
 
 .header__title {
@@ -29,7 +34,6 @@ body {
     text-decoration: none;
     color: #000;
 }
-
 
 
 /* PORTRAIT ORIENTATION PROPERTIES */

@@ -1,6 +1,38 @@
 <%- include('partials/header') %>
 <body>
-    <h1>About</h1>    
+    <header class="header">
+        <h1 class="header__title">About<span class="header__title--red">.</span>Me</h1>
+        <h2 class="header__subtitle">Plus qu'une expérience, une passion</h2>
+    </header>
+    <main class="main">
+        <div class="main__content">
+            <section class="main__content--front">
+                <img class="main__content-pic" src="img/about.png" alt="" />
+            </section>
+            <section class="main__content--back">
+                <p class="main__content-paragraph">
+                    En tant que Développeur Front-End, je mets mes compétences à votre service pour donner vie à votre
+                    imagination et vous permettre de résoudre vos problématiques d'implémentation et de visibilité web.
+                    J'aime réfléchir à la fois d'un point de vue marketing mais également design et mêler ces deux
+                    éléments afin de créer des tremplins de visibilité attrayant et focalisant les yeux des moteurs
+                    de recherche.
+                </p>
+                <p class="main__content-paragraph">
+                    La créativité à fait partie de ma vie depuis très jeune, alors déjà passionné par le dessin et pouvant
+                    passer des heures a redessiner des personnages ou des lieux tirés de mes loisirs geeks favoris. Cette
+                    passion je la met désormais au service du design et de la création de site web, tentant sans cesse de
+                    réfléchir pour chaque projet à une idéntité visuelle à la fois agréable, cohérente mais également
+                    optimisé en terme de navigation des utilisateurs.
+                </p>
+                <p class="main__content-paragraph">
+                    Je me suis découvert une passion, un amour pour l'apprentissage du développement web qui ne
+                    cesse de grandir à travers un partage continu au sein de la communauté tech. C'est cette
+                    vraie curiosité qui me pousse toujours plus loin dans le perfectionnement de mon profil de
+                    développeur et intégrateur web.
+                </p>
+            </section>
+        </div>
+    </main>
     <%- include('partials/footer') %>  
 </body>
 </html>

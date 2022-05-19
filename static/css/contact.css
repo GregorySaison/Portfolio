@@ -1,6 +1,7 @@
 body {
     overflow-y: scroll;
     margin-bottom: 128px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(214,206,214,1) 100%);
 }
 
 .header__title {

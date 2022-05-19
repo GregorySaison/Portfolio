@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #781e40;
+    overflow: hidden;
+}
+
+.header__title {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header__title--red {
+    color: rgba(214,206,214,1);
+}
+
+.header__subtitle {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    font-style: italic;
+    color: rgba(214,206,214,1);
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    perspective: 1000px;
+}
+
+.main__content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.main:hover .main__content {
+    transform: rotateY(180deg);
+}
+
+.main__content--front, .main__content--back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.main__content--back {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    color: rgba(214,206,214,1);
+    transform: rotateY(180deg);
+}
+
+.main__content-pic {
+    max-width: 100%;
+}
+
+.main__content-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25vw;
+    width: 50%;
+}
+
